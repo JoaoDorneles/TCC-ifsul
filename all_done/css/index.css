@@ -1,0 +1,129 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #212529;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%;
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 45%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+
+}
+
+
+.login-main-text{
+    margin-top: 10%;
+    padding: 60px;
+    color: #fff;
+}
+
+
+.login-main-text h2{
+    font-weight: 200;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.envio{
+    color: rgb(10, 131, 5);
+    font-family: "Lato", sans-serif;
+}
+
+.error{
+    color: #f00;
+    font-family: "Lato", sans-serif;
+}
+
+.atividadePendente{
+    color: rgb(202, 148, 0);
+    font-family: "Lato", sans-serif;
+}
+
+.atividadeDeferida{
+    color: rgb(10, 131, 5);
+    font-family: "Lato", sans-serif;
+}
+
+.atividadeIndeferida{
+    color: #f00;
+    font-family: "Lato", sans-serif;
+}
+
+.linkVoltar{
+    color:#FFF;
+    margin-left:10px;
+}
+
+.linkIcon{
+    color:#4e4e4e;
+    margin-left:2px;
+}
+
+.cardSemBorda{
+    border:none;
+}
+
+.cardShadow{
+    border: 1px solid rgb(180, 180, 180);
+    box-shadow: 7px 7px 7px 2px rgb(180, 180, 180);
+    border-radius: 1rem;
+}
+
+.strongPreto{
+    color: #000000;
+}
+
+.strongCinza{
+    color: #4e4e4e;
+}

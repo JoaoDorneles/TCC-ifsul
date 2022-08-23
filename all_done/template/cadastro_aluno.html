@@ -1,0 +1,27 @@
+<form id='formAluno' action='../php/cadastro_aluno.php' method='POST'>
+
+    <div class='form-group'>
+        <label>Matricula</label>
+        <input id='matricula'  class='form-control border border-dark' placeholder='Matricula' name='matricula' required>
+    </div>
+
+    <div class='form-group'>
+        <label>Curso</label>
+        <select onchange="carregaCurriculo(this.value)" id='curso' class='form-select border border-dark' name='curso'>
+            <option hidden>Selecione</option>
+            <!-- option-curso -->
+        </select>
+    </div>
+
+    <div class='form-group'>
+        <label>Currículo</label>
+        <select id='curriculo' class='form-select border border-dark' name='curriculo'>
+            <option hidden>Selecione</option>
+            <!-- option-curriculo -->
+        </select>
+    </div>
+
+    <button type='submit' class='btn btn-primary' value='enviar' name='Enviar'>Cadastrar</button>
+    <a class='btn btn-outline-dark ' href='../php/landingpage.php'>Voltar</a>
+
+</form>

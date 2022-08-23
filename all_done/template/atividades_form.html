@@ -1,0 +1,33 @@
+<form id='formAtividades' action='../php/atividades_cadastro.php' method='POST' enctype='multipart/form-data'>
+    <div class='form-group'>
+        <label>Tipo de Atividade</label>
+        <select id='tipo_atividade' class='form-select border border-dark' name='id_tipo_atividade'>
+            <option hidden>Selecione</option>
+            <!-- options -->
+        </select>
+    </div>
+
+    <div class='form-group'>
+        <label>Descrição da Atividade</label>
+        <input id='desc' type='text' class='form-control border border-dark' placeholder='Descrição' name='desc'>
+    </div>
+
+    <div class='form-group'>
+        <label>Carga Horária Requerida</label>
+        <input id='cargaH' class='form-control border border-dark' placeholder='Carga Horária' name='cargaH'>
+    </div>
+
+    <div class='form-group'>
+        <label>Validade do Certificado</label>
+        <input id='mecanismo' type='text' class='form-control border border-dark' placeholder='Link' name='mecanismo'>
+    </div>
+    <div class='form-group'>
+        <label>Documento Comprobatório</label>
+        <input id='certif' type='file' class='form-control border border-dark' name='certif'>
+    </div>
+
+    <button type='submit' class='btn btn-primary' value='enviar' name='Enviar'>Enviar</button>
+    <a class='btn btn-outline-dark ' href='../php/landingpage.php'>Voltar</a>
+</form>
+
+<script src='../js/validacao.js'></script>
