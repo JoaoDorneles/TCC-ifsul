@@ -1,11 +1,12 @@
-Roteiro para funcionamento do sistema All Done
+- Roteiro para funcionamento do sistema All Done
 
-- Primeiramente deve se logar com o usuário administrador.
+    - Primeiramente deve se logar com o usuário administrador.
 
-E-mail: admin@admin.com
-Senha: alldone
+          E-mail: admin@admin.com
 
-- Posteriormente o usuário administrador deverá configurar toda plataforma.
+          Senha: alldone
+
+    - Posteriormente o usuário administrador deverá configurar toda plataforma.
 
   - O administrador deve cadastrar um curso em "cadastrar curso" localizado na navbar.	
   - Após cadastrar o curso cadastre um currículo para este curso em "cadastrar currículo" localizado na navbar.
